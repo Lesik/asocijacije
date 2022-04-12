@@ -55,6 +55,7 @@ body {
     height: 100%;
     width: 100%;
     backface-visibility: hidden;
+    transform: rotateX(0deg); /* workaround FF backface-visibility bug */
 
     display: flex;
     justify-content: center;
